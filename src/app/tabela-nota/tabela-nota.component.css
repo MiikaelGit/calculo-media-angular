@@ -1,0 +1,19 @@
+button{
+    border: none;
+}
+
+.edit-button{
+    transition: all ease-in-out .3s;
+}
+
+.edit-button:hover{
+    color: rgb(144, 144, 144);
+}
+
+.delete-button{
+    transition: all ease-in-out .3s;
+}
+
+.delete-button:hover{
+    color: red;
+}

@@ -1,0 +1,17 @@
+<form>
+    <div class="form-floating mb-3">
+        <input type="name" class="form-control" [(ngModel)]="nome" name="nome" maxlength="10" id="nome" placeholder="Seu Nome">
+        <label for="nome">Nome:</label>
+      </div>
+    <div class="form-floating mb-3">
+        <input  class="form-control" type="number" [(ngModel)]="nota1" name="nota1" min="0" maxlength="2" max="10" id="nota1" placeholder="">
+        <label class="form-label" for="nota1">1ª Nota:</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input  class="form-control" type="number" [(ngModel)]="nota2" min="0" name="nota2" maxlength="2" max="10" id="nota2" placeholder="">
+        <label class="form-label" for="nota2">2ª Nota:</label>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" (click)="editarInformacoes()">Feito</button>
+    </div>
+</form>
